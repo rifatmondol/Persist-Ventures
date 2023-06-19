@@ -1,0 +1,299 @@
+@media only screen and (max-width:1199px){
+    .life-inner-item {
+        padding: 14px;
+    }
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    li.nav-item {
+        padding: 10px 6px
+    }
+    input.form-control {
+        width: 145px;
+    }
+}
+
+
+@media only screen and (max-width: 991px){
+    a.navbar-brand img {
+        width: 40px;
+    }
+    div#header {
+        background: #fff;
+    }
+    div#header a.navbar-brand span {
+        color: #000!important;
+    }
+    div#header .offcanvas-title a.navbar-brand span {
+        color: #fff!important;
+    }
+    li.nav-item a.nav-link:before{
+        display: none;
+    }
+    div#mission {
+        background: #001613;
+        padding: 70px 0px;
+    }
+    .mission-inner-item h2 {
+        font-size: 36px;
+    }
+    .mission-inner-item {
+        padding: 0px 5px;
+    }
+    .mission-inner-item p {
+        font-size: 16px;
+    }
+    #testimonial {
+        min-height: 610px;
+        padding: 40px 0px;
+    }
+    .testimonial-heading h2 {
+        font-size: 20px;
+    }
+    .testimonial-body {
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    div#communities span.ull, div#communities h2 {
+        padding: 0px 40px;
+    }
+    .communities-item.item-1 {
+        padding-right: 20px;
+    }
+    .contact-item form {
+        top: -100px;
+    }
+    div#subscribe {
+        width: 75%;
+    }
+    .subscribe-item {
+        padding: 0px 10px
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    a.navbar-brand img {
+        width: 40px;
+    }
+    div#header {
+        background: #fff;
+    }
+    div#header a.navbar-brand span {
+        color: #000!important;
+    }
+    div#header .offcanvas-title a.navbar-brand span {
+        color: #fff!important;
+    }
+    li.nav-item a.nav-link:before{
+        display: none;
+    }
+    #banner .banner-item {
+        min-height: 600px;
+    }
+    .banner-item-body, div#communities, div#contact, div#subscribe, #footer {
+        margin-top: 70px!important;
+    }
+    .banner-item-body p {
+        width: 100%;
+    }
+    .banner-item-body h1 {
+        font-size: 28px;
+    }
+    div#communities span.ull, div#communities h2,.communities-item.item-1 {
+        padding: 0;
+    }
+    div#mission {
+        padding: 35px 5px;
+    }
+    .mission-inner-item {
+        padding: 10px 0px;
+    }
+    .mission-inner-item h2 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    .mission-inner-item p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    #testimonial {
+        min-height: 510px;
+        padding: 40px 0px;
+    }
+    .testimonial-heading h2 {
+        font-size: 20px;
+    }
+    .testimonial-body {
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    div#communities span.ull, div#communities h2 {
+        text-align: left;
+        /* font-size: 20px; */
+        margin-bottom: 35px;
+    }
+    /* .communities-item h3 {
+        font-size: 22px;
+    } */
+    /* .communities-item-inner-main {
+        margin-left: 15px;
+    } */
+    .communities-item.item-1 {
+        margin-top: 75px;
+    }
+    .communities-item-img-inner:before {
+        right: 0px;
+    }
+    #contact {
+        height: auto!important;
+        padding: 20px 10px;
+    }
+    .contact-item {
+        margin-top: 35px;
+    }
+    .contact-item form {
+        background: #222;
+        padding: 10px 5px 10px 5px;
+        position: relative;
+        top: 0;
+    }
+    .inner-item-icon h4 {
+        font-size: 18px;
+    }
+    div#subscribe {
+        width: 100%;
+    }
+    .subscribe-item {
+        /* display: block; */
+        padding: 0 5px;
+    }
+    .footer-top .hr {
+        color: #ddd;
+        margin-top: 25px;
+    }
+    .footer-top-item {
+        text-align: center!important;
+    }
+    .footer-top {
+        padding: 29px 0px
+    }
+    .footer-last{
+        border-top: 1px solid var(--dark-gray);
+    }
+    .footer-last-item p {
+        text-align: center!important;
+    }
+}
+@media only screen and (max-width: 575px){
+    div#header {
+        background: #fff;
+    }
+    div#header a.navbar-brand span {
+        color: #000!important;
+    }
+    div#header .offcanvas-title a.navbar-brand span {
+        color: #fff!important;
+    }
+    li.nav-item a.nav-link:before{
+        display: none;
+    }
+    #banner .banner-item {
+        min-height: 600px;
+    }
+    .banner-item-body,div#communities,div#contact,div#subscribe,#footer {
+        margin-top: 50px!important;
+    }
+    .banner-item-body p {
+        width: 100%;
+    }
+    .banner-item-body h1 {
+        font-size: 28px;
+    }
+    div#communities span.ull, div#communities h2,.communities-item.item-1 {
+        padding: 0;
+    }
+    div#mission {
+        padding: 20px 5px;
+    }
+    .mission-inner-item {
+        padding: 10px 0px;
+    }
+    .mission-inner-item h2 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    .mission-inner-item p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    #testimonial {
+        min-height: 610px;
+        padding: 40px 0px;
+    }
+    .testimonial-heading h2 {
+        font-size: 20px;
+    }
+    .testimonial-body {
+        text-align: left;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    div#communities span.ull, div#communities h2 {
+        text-align: left;
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    .communities-item h3 {
+        font-size: 22px;
+    }
+    .communities-item-inner-main {
+        margin-left: 15px;
+    }
+    .communities-item.item-1 {
+        margin-top: 75px;
+    }
+    .communities-item-img-inner:before {
+        right: 0px;
+    }
+    #contact {
+        height: auto!important;
+        padding: 20px 10px;
+    }
+    .contact-item {
+        margin-top: 35px;
+    }
+    .contact-item form {
+        background: #222;
+        padding: 10px 5px 10px 5px;
+        position: relative;
+        top: 0;
+    }
+    div#subscribe {
+        width: 100%;
+    }
+    .subscribe-item {
+        display: block;
+        padding: 0 5px;
+    }
+    .footer-top-item {
+        text-align: center!important;
+    }
+    .footer-top {
+        padding: 29px 0px
+    }
+    .footer-last{
+        border-top: 1px solid var(--dark-gray);
+    }
+    .footer-last-item p {
+        text-align: center!important;
+    }
+}
